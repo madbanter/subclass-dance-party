@@ -1,5 +1,5 @@
 body, html{
-  height:100%;
+  height: 100%;
 }
 body{
   margin: 0px;
@@ -10,27 +10,27 @@ body, a:link, a:visited, a:active{
   color: lightblue;
 }
 .title, .addDancerButton, .lineUp{
-  padding:5px 12px;
-  float:right;
+  padding: 5px 12px;
+  float: right;
 }
 .topbar{
-  height:32px;
+  height: 32px;
   background-color: #555;
 }
 .title{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
-  position:absolute;
+  border: 10px solid red;
+  border-radius: 10px;
+  position: absolute;
 }
 .homer{
-  border:0px;
-  border-radius:0px;
+  border: 0px;
+  border-radius: 0px;
   background: url('homer.png');
   background-size: 20%;
   background-repeat: no-repeat;
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
 }
