@@ -31,8 +31,20 @@ Dancer.prototype.setPosition = function(top, left) {
   this.$node.css(styleSettings);
 };
 
-Dancer.prototype.lineUp = function(dancerHeight) {
-  this.setPosition(($("body").height() * 0.5 - dancerHeight * 0.5), this.left);
+Dancer.prototype.lineUp = function() {
+  // this.setPosition(($("body").height() * 0.5 - dancerHeight * 0.5), this.left);
+  var settings = {
+    // 'margin-top': '50%'
+    // 'margin-bottom': 'auto'
+    // 'display': 'flex',
+    // 'justify-content': 'center';
+    // 'align-items': 'center'
+    'position': 'absolute',
+    'top': '50%',
+    'transform': 'translateY(-50%)'
+  };
+
+  $('.dancer').css(settings);
 };
 
 // // Creates and returns a new dancer object that can step
