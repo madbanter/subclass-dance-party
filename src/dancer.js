@@ -31,6 +31,10 @@ Dancer.prototype.setPosition = function(top, left) {
   this.$node.css(styleSettings);
 };
 
+Dancer.prototype.lineUp = function() {
+  this.setPosition($("body").height() * 0.5, this.left);
+};
+
 // // Creates and returns a new dancer object that can step
 // var makeDancer = function(top, left, timeBetweenSteps) {
 

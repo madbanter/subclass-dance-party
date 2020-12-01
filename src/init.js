@@ -28,6 +28,19 @@ $(document).ready(function() {
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
+    window.dancers.push(dancer);
+
+    $('.dancer').hover(function(event) {
+      $(this).css("border-color", "green");
+    },
+    function(event) {
+      $(this).css("border-color", "red");
+    });
+
+  });
+  $('.lineUp').on('click', function(event) {
+    window.dancers.forEach(function(dancer) {
+      dancer.lineUp();
+    });
   });
 });
-
