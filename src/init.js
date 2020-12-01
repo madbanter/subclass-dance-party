@@ -40,7 +40,8 @@ $(document).ready(function() {
   });
   $('.lineUp').on('click', function(event) {
     window.dancers.forEach(function(dancer) {
-      dancer.lineUp();
+      let dancerHeight = $(dancer.$node[0]).height();
+      dancer.lineUp(dancerHeight);
     });
   });
 });
