@@ -29,6 +29,8 @@ body, a:link, a:visited, a:active{
   border:0px;
   border-radius:0px;
   background: url('homer.png');
-  width:100px;
-  height:100px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100%;
 }
