@@ -25,3 +25,10 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.homer{
+  border:0px;
+  border-radius:0px;
+  background: url('homer.png');
+  width:100px;
+  height:100px;
+}
